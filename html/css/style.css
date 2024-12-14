@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  margin-left: 3px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(44, 44, 44);
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track {
+  background: #7e07ee;
+  border-radius: 43px;
+}
+::-webkit-scrollbar-track:hover {
+  background: white;
+}
+::-webkit-scrollbar-track:active {
+  background: grey;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+body {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	align-items: flex-start;
+	justify-content: right;
+    overflow: hidden;
+}
+
+.top-hud {
+    display: flex;
+	flex-direction: column;
+    position: relative;
+    width: 15vw;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+	margin-top: 0.3vw;
+	margin-right: 0.3vw;
+    border-radius: 10px;
+	padding: 0.5vw;
+}
+
+.top-hud .boxdiscord {
+    display: flex;
+    position: relative;
+    width: 14vw;
+    height: 2vw;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: linear-gradient(to left, rgba(27, 27, 27, 0.8) 0%, rgba(27, 27, 27, 0.8) 30%,rgba(27, 27, 27, 0) 100%);
+    border-radius: 5px;
+}
+
+.top-hud .boxdiscord .discord-text {
+    display: flex;
+    position: relative;
+    width: 10.5vw;
+	height: 2vw;
+    align-items: center;
+    justify-content: right;
+	margin-right: 0.5vw;
+    overflow: hidden;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 0.8vw;
+}
+
+.top-hud .boxdiscord .discord-logo {
+    display: flex;
+    position: relative;
+    width: 3vw;
+	height: 2vw;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.top-hud .boxdiscord .discord-logo img {
+	max-width: 3vw;
+	max-height: 1.70vw;
+}
+
+.top-hud .boxbind {
+    display: flex;
+    position: relative;
+	margin-top: 0.2vw;
+    width: 14vw;
+    height: 1.5vw;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: linear-gradient(to left, rgba(27, 27, 27, 0.8) 0%, rgba(27, 27, 27, 0.8) 30%,rgba(27, 27, 27, 0) 100%);
+    border-radius: 5px;
+}
+
+.top-hud .boxbind .labelbind {
+    display: flex;
+    position: relative;
+    width: 10.5vw;
+	height: 1.5vw;
+    align-items: center;
+    justify-content: right;
+	margin-right: 0.5vw;
+    overflow: hidden;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 0.8vw;
+}
+
+.top-hud .boxbind .keybind {
+    display: flex;
+    position: relative;
+    width: 3vw;
+	height: 1.5vw;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+	background-color: rgba(126,7,236,0.6);
+	border-radius: 5px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 0.8vw;
+	font-weight: bold;
+}
